@@ -1,11 +1,12 @@
 import java.util.Scanner;
-import Carro.Locadora;
 
 public class LocadoraVeiculos {
  public static void main(String [] args) {
 	 Carro carro = new Carro();
 	 Moto moto1 = new Moto();
 	 Moto moto2 = new Moto();
+
+	 String fabricante, modelo, cc;
 	 	 
 	 Scanner leitura = new Scanner(System.in);
 	 System.out.println("Insira a fabricante do carro: ");
