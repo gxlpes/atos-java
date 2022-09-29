@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import transporte.*;
 
 public class LocadoraVeiculos {
  public static void main(String [] args) {
