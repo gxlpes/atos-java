@@ -1,4 +1,4 @@
-package ex_03_herança.Principal;
+package ex_03_herança.PrincipalUsuario;
 
 public class Usuario {
     protected static String nome, email;

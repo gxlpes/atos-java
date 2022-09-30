@@ -1,7 +1,7 @@
-package ex_03_herança.Principal;
+package ex_03_herança.PrincipalUsuario;
 import java.util.Scanner;
 
-public class Principal extends Usuario {
+public class PrincipalUsuario extends Usuario {
     
     public static void main(String[] args ) {
         Scanner leitura = new Scanner (System.in);
