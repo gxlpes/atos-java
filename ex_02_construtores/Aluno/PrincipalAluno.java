@@ -1,4 +1,4 @@
-package ex_02_construtores.Aluno;
+package ex_02_construtores;
 
 public class PrincipalAluno {
     public static void main (String[] args) {

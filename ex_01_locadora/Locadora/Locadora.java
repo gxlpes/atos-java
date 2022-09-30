@@ -1,7 +1,7 @@
-import java.util.Scanner;
-import transporte.*;
 
-public class LocadoraVeiculos {
+import java.util.Scanner;
+
+public class Locadora {
  public static void main(String [] args) {
 	 Carro carro = new Carro();
 	 Moto moto1 = new Moto();

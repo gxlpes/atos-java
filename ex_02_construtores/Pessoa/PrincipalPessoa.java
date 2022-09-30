@@ -1,5 +1,4 @@
 package ex_02_construtores.Pessoa;
-
 import java.util.Scanner;
 
 public class PrincipalPessoa {

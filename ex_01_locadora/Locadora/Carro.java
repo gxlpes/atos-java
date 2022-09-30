@@ -1,4 +1,3 @@
-package transporte;
 
 public class Carro {
 	
@@ -23,4 +22,3 @@ public class Carro {
 		}
 		
 	}
-
