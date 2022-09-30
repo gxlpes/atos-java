@@ -1,8 +1,8 @@
-package ex_02_construtores;
+package ex_02_construtores.Pessoa;
 
 import java.util.Scanner;
 
-public class Principal {
+public class PrincipalPessoa {
     public static void main(String[] args) {
         int construct;
         String nome;
@@ -16,17 +16,16 @@ public class Principal {
         if(construct == 1) {
             System.out.println("Digite o nome da pessoa: ");
             nome = leitura.next();
-
             System.out.println("Digite a idade da pessoa: ");
             idade = leitura.nextInt();
 
             Pessoa pessoaNova = new Pessoa(nome, idade);
-            pessoaNova.exibirDados();
+
         } else {
             System.out.println("Digite a idade da pessoa: ");
             idade = leitura.nextInt(); 
+
             Pessoa pessoaNova = new Pessoa(idade);
-            pessoaNova.exibirDados();
         }
 
 
