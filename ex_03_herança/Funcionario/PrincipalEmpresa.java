@@ -8,8 +8,10 @@ public class PrincipalEmpresa {
     Funcionario func2 = new Funcionario();
     Funcionario func3 = new Funcionario();
 
-   exibirPessoa();
-
+  func1.MostrarFuncionario();
+  func2.MostrarFuncionario();
+  func3.MostrarFuncionario();
+  
  }
 
 }
