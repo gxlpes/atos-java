@@ -1,4 +1,4 @@
-# Atos Java - Integration of Java projects
+# Atos Java - Integration of Java Projects
 The navigation of each project/class is made using the branches from the repo.
 
 <ul>
