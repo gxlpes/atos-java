@@ -4,12 +4,12 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Principal_insercao {
+public class Principal_update {
 
 	public static void main(String[] args) {
 
 		final String db_url = "jdbc:mysql://localhost:3306/reuniao";
-		final String db_query = "INSERT INTO pessoa (nome, email, cargo) values ('Aberto Santos', 'santos@yahoo.com', 'Professor')"; // mudança para inserção no db
+		final String db_query = "UPDATE pessoa SET nome='Paulo Henrique', email='paulo.henrique@globo.com', cargo='Aluno' WHERE nome='Aberto Santos'"; // mudança para inserção no db
 		final String db_user = "root";
 		final String db_password = "";
 		
@@ -21,6 +21,8 @@ public class Principal_insercao {
             Statement statement = c.createStatement(); // config de acesso aos cursores
             int linhas = statement.executeUpdate(db_query);
             System.out.println("A query afetou " + linhas);
+            statement.close();
+            c.close();
 	} catch (SQLException sqlException) {
 		sqlException.printStackTrace();
 	}
