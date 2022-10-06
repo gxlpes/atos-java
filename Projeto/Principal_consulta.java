@@ -5,7 +5,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Principal {
+public class Principal_consulta {
 
 	public static void main(String[] args) {
 
