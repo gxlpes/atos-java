@@ -1,8 +1,0 @@
-{
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorSmoothCaretAnimation": true,
-  "java.project.referencedLibraries": [
-    "lib/**/*.jar",
-    "c:\\Users\\Guilherme Lopes\\Downloads\\mysql-connector-java-8.0.30.jar"
-  ]
-}
