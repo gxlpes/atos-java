@@ -11,12 +11,7 @@ public class SearchData {
     static  final String db_user = "root";
     static  final String db_password = "";
 
-    public static void main(String[] args) {
-        buscar();
- 
-    }
-
-    public  static void buscar() {
+    public void buscar() {
         final String db_query = "SELECT * FROM pessoas";
         System.out.println("Iniciando conexão ao DB");
         
@@ -27,7 +22,7 @@ public class SearchData {
 
         while (resultSet.next()) {
             // System.out.println(resultSet.getString(2));  // buscando apenas a coluna 2 do select * from pessoas
-            System.out.println(resultSet.getString(1)+" "+resultSet.getString(2)+" \t"+resultSet.getString(3));
+            System.out.println(resultSet.getString(1)+" "+resultSet.getString(2)+" "+resultSet.getString(3));
         }		
     } catch (SQLException sqlException) {
         sqlException.printStackTrace();
