@@ -23,7 +23,8 @@ public class Principal_consulta {
 			System.out.println("Conectado ao MySQL");
 
 			while (resultSet.next()) {
-				System.out.println(resultSet.getString(2)); // buscando apenas a coluna 2 do select * from pessoas
+				// System.out.println(resultSet.getString(2)); // buscando apenas a coluna 2 do
+				// select * from pessoas
 				System.out.println(resultSet.getString(1) + " " + resultSet.getString(2) + " \t"
 						+ resultSet.getString(3) + " \t" + resultSet.getString(4));
 			}
