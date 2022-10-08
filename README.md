@@ -29,9 +29,16 @@ Navigation between classes is done using the repository branches.
     <br/>
 
 <li><b>Aula 005 - 05/10/22</b></li>
-<ul>
-  <li>Java JDBC</li>
-  <li>Polimorfism w/ queries</li>
-  <li>DB queries</li>
+  <ul>
+    <li>Java JDBC</li>
+    <li>Polimorfism w/ queries</li>
+    <li>DB queries</li>
   </ul>
+  <br/>
+  
+ <li><b>Aula 006 - 07/10/22</b></li>
+ <ul>
+ <li>Maven management</li>
+ <li>MVN Dependencies</li>
+ </ul>
 </ul>
