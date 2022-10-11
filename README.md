@@ -41,4 +41,12 @@ Navigation between classes is done using the repository branches.
  <li>Maven management</li>
  <li>MVN Dependencies</li>
  </ul>
+
+<br/>
+ <li><b>Aula 007 - 10/10/22</b></li>
+ <ul>
+ <li>Profiling</li>
+ <li>Debugging</li>
+ <li>Logging</li>
+</ul>
 </ul>
