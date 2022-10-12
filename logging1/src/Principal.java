@@ -1,5 +1,3 @@
-package project;
-
 import java.util.logging.Level;
 
 public class Principal {
