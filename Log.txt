@@ -1,4 +1,0 @@
-out. 10, 2022 8:18:32 PM project.Principal main
-WARNING: Log de aviso
-out. 10, 2022 8:18:33 PM project.Principal main
-SEVERE: Log severo
