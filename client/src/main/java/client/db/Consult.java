@@ -30,7 +30,9 @@ public class Consult {
             while (resultSet.next()) {
                 System.out
                         .println(resultSet.getString(1) + " " + resultSet.getString(2));
+
             }
+            log.logger.finest("DB Consult finished");
         } catch (SQLException sqlException) {
             log.logger.setLevel(Level.WARNING);
             log.logger.warning("Aborting DB Consult.............." + sqlException);

@@ -1,6 +1,0 @@
-out. 12, 2022 6:29:14 PM client.db.Insert <init>
-FINEST: Execution started
-out. 12, 2022 6:31:07 PM client.db.Insert <init>
-FINEST: DB Insert started
-out. 12, 2022 6:31:09 PM client.db.Insert <init>
-WARNING: Aborting DB Insert..............com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'celular' at row 1

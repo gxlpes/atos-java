@@ -30,7 +30,6 @@ public class Insert {
             Statement statement = c.createStatement(); // config de acesso aos cursores
             int linhas = statement.executeUpdate(db_query);
             System.out.println("A query afetou " + linhas);
-            log.logger.setLevel(Level.FINEST);
             log.logger.finest("DB Insert finished");
             statement.close();
             c.close();
