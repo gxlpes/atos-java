@@ -1,20 +1,6 @@
-out. 12, 2022 4:32:16 PM log.App main
+out. 12, 2022 6:29:14 PM client.db.Insert <init>
 FINEST: Execution started
-out. 12, 2022 4:32:20 PM log.App main
-INFO: Result is: 0.0
-out. 12, 2022 4:32:30 PM log.App main
-FINEST: Execution started
-out. 12, 2022 4:32:35 PM log.App main
-INFO: Result is: Infinity
-out. 12, 2022 4:32:56 PM log.App main
-FINEST: Execution started
-out. 12, 2022 4:33:01 PM log.App main
-INFO: Result is: -0.0
-out. 12, 2022 4:33:07 PM log.App main
-FINEST: Execution started
-out. 12, 2022 4:33:13 PM log.App main
-INFO: Result is: Infinity
-out. 12, 2022 4:34:05 PM log.App main
-FINEST: Execution started
-out. 12, 2022 4:34:14 PM log.App main
-WARNING: Result is infinite, aborting execution.
+out. 12, 2022 6:31:07 PM client.db.Insert <init>
+FINEST: DB Insert started
+out. 12, 2022 6:31:09 PM client.db.Insert <init>
+WARNING: Aborting DB Insert..............com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'celular' at row 1
