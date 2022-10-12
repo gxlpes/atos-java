@@ -1,6 +1,6 @@
 # Atos Java - Integration of Java Projects
 
-Navigation between classes is done using the repository branches.
+Navigation between lessons is done using the repository branches.
 
 <ul>
 <li><b>Aula 001 - 21/09/22</b></li>
