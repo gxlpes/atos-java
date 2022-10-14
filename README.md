@@ -53,7 +53,7 @@ Navigation between lessons is done using the repository branches.
 </ul>
 <br/>
   
- <li><b><a href="href="https://github.com/gxlpes/atos-java/tree/008_aula_131022">Aula 008 - 13/10/22</a></b></li>
+ <li><b><a href="https://github.com/gxlpes/atos-java/tree/008_aula_131022">Aula 008 - 13/10/22</a></b></li>
  <ul>
  <li>Hibernate</li>
  <li>MySQL</li>
