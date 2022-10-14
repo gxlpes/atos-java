@@ -3,26 +3,26 @@
 Navigation between lessons is done using the repository branches.
 
 <ul>
-  <li><b><a href="https://github.com/gxlpes/atos-java/tree/001_aula_210922" target="_blank">Aula 001 - 21/09/22</a></b></li>
+  <li><b><a href="https://github.com/gxlpes/atos-java/tree/001_aula_210922">Aula 001 - 21/09/22</a></b></li>
   <ul>
     <li>Basic syntax of Java</li>
   </ul>
  <br/>
-<li><b>Aula 002 - 23/09/22</b></li>
+  <li><b><a href="https://github.com/gxlpes/atos-java/tree/002_aula_230922">Aula 002 - 23/09/22</a></b></li>
   <ul>
       <li>OOP programming</li>
       <li>Methods</li>
        <li>Attributes</li>
   </ul>
    <br/>
-<li><b>Aula 003 - 29/09/22</b></li>
+<li><b><a href="href="https://github.com/gxlpes/atos-java/tree/003_aula_290922">Aula 003 - 29/09/22</a></b></li>
   <ul>
     <li>Inheritance</li>
     <li>Constructors</li>
   </ul>
    <br/>
 
-<li><b>Aula 004 - 30/09/22</b></li>
+<li><b><a href="href="https://github.com/gxlpes/atos-java/tree/004_aula_300922">Aula 004 - 30/09/22</a></b></li>
   <ul>
     <li>Abstract classes</li>
     <li>Interfaces</li>
@@ -30,7 +30,7 @@ Navigation between lessons is done using the repository branches.
    </ul>
     <br/>
 
-<li><b>Aula 005 - 05/10/22</b></li>
+<li><b><a href="href="https://github.com/gxlpes/atos-java/tree/005_aula_051022">Aula 005 - 05/10/22</a></b></li>
   <ul>
     <li>Java JDBC</li>
     <li>Polimorfism w/ queries</li>
@@ -38,14 +38,14 @@ Navigation between lessons is done using the repository branches.
   </ul>
   <br/>
   
- <li><b>Aula 006 - 07/10/22</b></li>
+ <li><b><a href="href="https://github.com/gxlpes/atos-java/tree/006_aula_071022">Aula 006 - 07/10/22</a></b></li>
  <ul>
  <li>Maven management</li>
  <li>MVN Dependencies</li>
  </ul>
 
 <br/>
- <li><b>Aula 007 - 10/10/22</b></li>
+ <li><b><a href="href="https://github.com/gxlpes/atos-java/tree/007_aula_101022">Aula 007 - 10/10/22</a></b></li>
  <ul>
  <li>Profiling</li>
  <li>Debugging</li>
@@ -53,7 +53,7 @@ Navigation between lessons is done using the repository branches.
 </ul>
 <br/>
   
- <li><b>Aula 008 - 13/10/22</b></li>
+ <li><b><a href="href="https://github.com/gxlpes/atos-java/tree/008_aula_131022">Aula 008 - 13/10/22</a></b></li>
  <ul>
  <li>Hibernate</li>
  <li>MySQL</li>
