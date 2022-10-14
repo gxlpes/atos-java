@@ -3,7 +3,7 @@
 Navigation between lessons is done using the repository branches.
 
 <ul>
-<li><b>Aula 001 - 21/09/22</b></li>
+  <li><b><a href="https://github.com/gxlpes/atos-java/tree/001_aula_210922" target="_blank">Aula 001 - 21/09/22</a></b></li>
   <ul>
     <li>Basic syntax of Java</li>
   </ul>
@@ -52,7 +52,8 @@ Navigation between lessons is done using the repository branches.
  <li>Logging</li>
 </ul>
 <br/>
- <li><b>Aula 007 - 10/10/22</b></li>
+  
+ <li><b>Aula 008 - 13/10/22</b></li>
  <ul>
  <li>Hibernate</li>
  <li>MySQL</li>
