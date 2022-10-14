@@ -15,14 +15,14 @@ Navigation between lessons is done using the repository branches.
        <li>Attributes</li>
   </ul>
    <br/>
-<li><b><a href="href="https://github.com/gxlpes/atos-java/tree/003_aula_290922">Aula 003 - 29/09/22</a></b></li>
+<li><b><a href="https://github.com/gxlpes/atos-java/tree/003_aula_290922">Aula 003 - 29/09/22</a></b></li>
   <ul>
     <li>Inheritance</li>
     <li>Constructors</li>
   </ul>
    <br/>
 
-<li><b><a href="href="https://github.com/gxlpes/atos-java/tree/004_aula_300922">Aula 004 - 30/09/22</a></b></li>
+<li><b><a href="https://github.com/gxlpes/atos-java/tree/004_aula_300922">Aula 004 - 30/09/22</a></b></li>
   <ul>
     <li>Abstract classes</li>
     <li>Interfaces</li>
@@ -30,7 +30,7 @@ Navigation between lessons is done using the repository branches.
    </ul>
     <br/>
 
-<li><b><a href="href="https://github.com/gxlpes/atos-java/tree/005_aula_051022">Aula 005 - 05/10/22</a></b></li>
+<li><b><a href="https://github.com/gxlpes/atos-java/tree/005_aula_051022">Aula 005 - 05/10/22</a></b></li>
   <ul>
     <li>Java JDBC</li>
     <li>Polimorfism w/ queries</li>
@@ -38,14 +38,14 @@ Navigation between lessons is done using the repository branches.
   </ul>
   <br/>
   
- <li><b><a href="href="https://github.com/gxlpes/atos-java/tree/006_aula_071022">Aula 006 - 07/10/22</a></b></li>
+ <li><b><a href="https://github.com/gxlpes/atos-java/tree/006_aula_071022">Aula 006 - 07/10/22</a></b></li>
  <ul>
  <li>Maven management</li>
  <li>MVN Dependencies</li>
  </ul>
 
 <br/>
- <li><b><a href="href="https://github.com/gxlpes/atos-java/tree/007_aula_101022">Aula 007 - 10/10/22</a></b></li>
+ <li><b><a href="https://github.com/gxlpes/atos-java/tree/007_aula_101022">Aula 007 - 10/10/22</a></b></li>
  <ul>
  <li>Profiling</li>
  <li>Debugging</li>
