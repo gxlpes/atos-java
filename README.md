@@ -51,4 +51,11 @@ Navigation between lessons is done using the repository branches.
  <li>Debugging</li>
  <li>Logging</li>
 </ul>
+<br/>
+ <li><b>Aula 007 - 10/10/22</b></li>
+ <ul>
+ <li>Hibernate</li>
+ <li>MySQL</li>
+ <li>JPA (Java Persistence API)</li>
+</ul>
 </ul>
