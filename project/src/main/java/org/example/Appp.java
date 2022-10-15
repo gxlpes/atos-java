@@ -4,7 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-public class App {
+public class Appp {
     public static void main(String[] args) {
 
 //        Pessoa p1 = new Pessoa(null, "Carlos da Silva", "carlos@gmail.com"); // id da pessoa é null já que o BD vai incrementar os IDs
