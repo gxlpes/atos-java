@@ -35,7 +35,7 @@ Navigation between lessons is done using the repository branches.
     <li>Java JDBC</li>
     <li>Polimorfism w/ queries</li>
     <li>DB queries</li>
-    <li><b>Java JDBC Project</b></li>
+    <li><a href="https://github.com/gxlpes/atos-java/tree/006_aula_071022/demo">Java JDBC Project</a></li>
   </ul>
   <br/>
   
@@ -51,6 +51,7 @@ Navigation between lessons is done using the repository branches.
  <li>Profiling</li>
  <li>Debugging</li>
  <li>Logging</li>
+ <li><a href="https://github.com/gxlpes/atos-java/tree/007_aula_101022/logging3">Logging Project</a></li>
 </ul>
 <br/>
   
@@ -59,7 +60,7 @@ Navigation between lessons is done using the repository branches.
  <li>Hibernate</li>
  <li>MySQL</li>
  <li>JPA (Java Persistence API)</li>
-  <li><b>Atos Cadastro Project</b></li>
+  <li><a href="https://github.com/gxlpes/atos-java/tree/008_aula_141022/atos-cadastro">Atos Cadastro Project</a></li>
 
 </ul>
 </ul>
