@@ -68,6 +68,20 @@ public class Update {
                 System.out.println("Campo alterado");
                 countCampo++;
                 break;
+            case 6:
+                System.out.println("Digite o novo ano: ");
+                Integer ano = read.nextInt();
+                aluno.setAno(ano);
+                System.out.println("Campo alterado");
+                countCampo++;
+                break;
+            case 7:
+                System.out.println("Digite o novo semestre: ");
+                Integer semestre = read.nextInt();
+                aluno.setSemestre(semestre);
+                System.out.println("Campo alterado");
+                countCampo++;
+                break;
         }
 
         System.out.println("Você deseja alterar outro campo?");

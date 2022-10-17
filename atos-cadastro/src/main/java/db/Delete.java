@@ -28,7 +28,7 @@ public class Delete {
         int aluno2 = read.nextInt();
 
         if (aluno1 == aluno2) {
-            Aluno p = em.find(Aluno.class, aluno1); // recuperando a entidade que se deseja excluir
+            Aluno p = em.find(Aluno.class, aluno1);
             em.getTransaction().begin();
             em.remove(p);
             em.getTransaction().commit();

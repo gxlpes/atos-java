@@ -1,2 +1,0 @@
-out. 17, 2022 4:47:31 PM principal.App padrao
-FINEST: Execução do programa

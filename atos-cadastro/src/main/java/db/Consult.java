@@ -20,7 +20,7 @@ public class Consult {
             List<Aluno> alunos = query.getResultList();
 
             for (Aluno aluno : alunos) {
-                System.out.println("ID: " + aluno.getId() + " | " + "CPF: " + aluno.getCpf() + " | " + "Nome: " + aluno.getNome() + " | " + "Email: " + aluno.getEmail() + " | " + "Estado: " + aluno.getEstado() + " | " + "Cidade: " + aluno.getCidade());
+                System.out.println("ID: " + aluno.getId() + " | " + "CPF: " + aluno.getCpf() + " | " + "Nome: " + aluno.getNome() + " | " + "Email: " + aluno.getEmail() + " | " + "Estado: " + aluno.getEstado() + " | " + "Cidade: " + aluno.getCidade() + " | " + "Ano: " + aluno.getAno() + " | " + "Semestre: " + aluno.getSemestre());
             }
 
             em.close();

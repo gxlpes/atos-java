@@ -18,12 +18,14 @@ public class Aluno implements Serializable {
     private String email;
     private String estado;
     private String cidade;
+    private Integer ano;
+    private Integer semestre;
 
     public Aluno() {
 
     }
 
-    public Aluno(Integer id, String cpf, String nome, String email, String estado, String cidade) {
+    public Aluno(Integer id, String cpf, String nome, String email, String estado, String cidade, Integer ano, Integer semestre) {
         super();
         this.id = id;
         this.cpf = cpf;
@@ -31,6 +33,8 @@ public class Aluno implements Serializable {
         this.email = email;
         this.estado = estado;
         this.cidade = cidade;
+        this.ano = ano;
+        this.semestre = semestre;
     }
 
     @Override
@@ -42,6 +46,8 @@ public class Aluno implements Serializable {
                 ", email='" + email + '\'' +
                 ", estado='" + estado + '\'' +
                 ", cidade='" + cidade + '\'' +
+                ", ano='" + ano + '\'' +
+                ", semestre='" + semestre + '\'' +
                 '}';
     }
 
@@ -88,4 +94,12 @@ public class Aluno implements Serializable {
     public void setCidade(String cidade) {
         this.cidade = cidade;
     }
+
+    public void setAno(Integer ano) {this.ano = ano;}
+
+    public int getAno() {return ano;}
+
+    public void setSemestre(Integer semestre) {this.semestre = semestre;}
+
+    public int getSemestre() {return semestre;}
 }

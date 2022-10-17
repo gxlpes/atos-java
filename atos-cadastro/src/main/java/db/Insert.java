@@ -15,8 +15,8 @@ public class Insert {
 
     public static void novoAluno() throws IOException {
         java.util.logging.Logger.getLogger("org.hibernate").setLevel(Level.OFF);
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("atos_cadastro"); // instancia o entity manager com config do persistence.xml
-        EntityManager em = emf.createEntityManager(); // contexto de persistência e conexão com o banco
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("atos_cadastro");
+        EntityManager em = emf.createEntityManager();
         Scanner read = new Scanner(System.in);
 
         do {
@@ -30,12 +30,16 @@ public class Insert {
             String estado = read.nextLine();
             System.out.println("Digite a cidade");
             String cidade = read.nextLine();
+            System.out.println("Digite o ano");
+            Integer ano = read.nextInt();
+            System.out.println("Digite o semestre");
+            Integer semestre = read.nextInt();
 
-            Aluno student = new Aluno(null, cpf, nome, email, estado, cidade);
+            Aluno student = new Aluno(null, cpf, nome, email, estado, cidade, ano, semestre);
 
-            em.getTransaction().begin(); // começo da transação
+            em.getTransaction().begin();
             em.persist(student);
-            em.getTransaction().commit(); // commit da transação
+            em.getTransaction().commit();
 
 
             System.out.println("Você deseja continuar?");
@@ -45,8 +49,8 @@ public class Insert {
 
         System.out.println("Implementação realizada com sucesso!");
 
-        em.close(); // fechar o entity manager
-        emf.close(); // fechar
+        em.close();
+        emf.close();
         read.close();
     }
 }

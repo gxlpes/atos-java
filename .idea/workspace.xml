@@ -4,25 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="Fix update method">
-      <change afterPath="$PROJECT_DIR$/Log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log.txt.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/log/Arquive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/log/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="Update and log updatees">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/principal/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/Consult.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Consult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Delete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Insert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Update.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/Aluno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/Consult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/Delete.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/Insert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/Update.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log.txt.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Consult.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Consult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/principal/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/principal/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666010197239</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update and log updatees">
+      <created>1666037995455</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666037995455</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,7 +140,8 @@
     <MESSAGE value="Updates in project" />
     <MESSAGE value="Update funct" />
     <MESSAGE value="Fix update method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix update method" />
+    <MESSAGE value="Update and log updatees" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update and log updatees" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/atos_java$App.ic" NAME="App Coverage Results" MODIFIED="1666037444597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
