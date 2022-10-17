@@ -1,30 +1,30 @@
 import javax.persistence.*;
-import java.io.IOException;
 import java.util.List;
-import java.util.Scanner;
 import java.util.logging.Level;
 
 
 public class Consult {
 
-    public static void all() throws IOException {
-        Scanner read = new Scanner(System.in);
-        java.util.logging.Logger.getLogger("org.hibernate").setLevel(Level.OFF);
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("atos_cadastro"); // instancia o entity manager com config do persistence.xml
-        EntityManager em = emf.createEntityManager(); // contexto de persistência e conexão com o banco
+    public static void all() {
 
-        String jpql = "select u from Aluno u";
-        TypedQuery<Aluno> query = em.createQuery(jpql, Aluno.class);
-        query.setMaxResults(40);
+            java.util.logging.Logger.getLogger("org.hibernate").setLevel(Level.OFF);
+            EntityManagerFactory emf = Persistence.createEntityManagerFactory("atos_cadastro"); // instancia o entity manager com config do persistence.xml
+            EntityManager em = emf.createEntityManager(); // contexto de persistência e conexão com o banco
 
-        List<Aluno> alunos = query.getResultList();
+            String jpql = "select u from Aluno u";
+            TypedQuery<Aluno> query = em.createQuery(jpql, Aluno.class);
+            query.setMaxResults(40);
 
-        for (Aluno aluno : alunos) {
-            System.out.println("ID: " + aluno.getId() + " | " + "Nome: " + aluno.getNome());
-        }
+            List<Aluno> alunos = query.getResultList();
 
-        em.close();
-        emf.close();
+            for (Aluno aluno : alunos) {
+                System.out.println("ID: " + aluno.getId() + " | " + "CPF: " + aluno.getCpf() + " | " + "Nome: " + aluno.getNome() + " | " + "Email: " + aluno.getEmail() + " | " + "Estado: " + aluno.getEstado() + " | " + "Cidade: " + aluno.getCidade());
+            }
+
+            em.close();
+            emf.close();
+
+
 
     }
 

@@ -6,7 +6,6 @@ import java.util.Scanner;
 import java.util.logging.Level;
 
 public class Update {
-    static String decis;
     static int countCampo;
 
     public static void aluno() throws IOException {
@@ -19,12 +18,13 @@ public class Update {
         Consult.all();
 
         System.out.println("Digite o ID que você deseja alterar os atributos");
-        int alunoId = read.nextInt();
+        int alunoId = Integer.parseInt(read.nextLine());
         Aluno aluno = em.find(Aluno.class, alunoId);
 
         System.out.println("Qual campo você deseja alterar?");
         System.out.println("1) CPF \n2) Nome \n3) Email \n4) Estado \n5) Cidade");
-        int campo = read.nextInt();
+        int campo = Integer.parseInt(read.nextLine());
+
 
         switch (campo) {
             case 1:
@@ -32,82 +32,54 @@ public class Update {
                 String cpf = read.next();
                 aluno.setCpf(cpf);
                 System.out.println("Campo alterado");
-                System.out.println("Você deseja alterar outro campo?");
-                decis = read.next();
                 countCampo++;
-
-                if (decis.equalsIgnoreCase("sim")) {
-                    aluno();
-                } else {
-                    App.padrao();
-                }
                 break;
             case 2:
                 System.out.println("Digite o novo nome: ");
-                String nome = read.next();
+                String nome = read.nextLine();
+                System.out.println(nome);
                 aluno.setNome(nome);
                 System.out.println("Campo alterado");
-                System.out.println("Você deseja alterar outro campo?");
-                decis = read.next();
                 countCampo++;
-
-                if (decis.equalsIgnoreCase("sim")) {
-                    aluno();
-                } else {
-                    App.padrao();
-                }
                 break;
             case 3:
                 System.out.println("Digite o novo email: ");
                 String email = read.next();
                 aluno.setEmail(email);
                 System.out.println("Campo alterado");
-                System.out.println("Você deseja alterar outro campo?");
-                decis = read.next();
                 countCampo++;
-
-                if (decis.equalsIgnoreCase("sim")) {
-                    aluno();
-                } else {
-                    App.padrao();
-                }
                 break;
             case 4:
                 System.out.println("Digite o novo estado: ");
                 String estado = read.next();
                 aluno.setEstado(estado);
                 System.out.println("Campo alterado");
-                System.out.println("Você deseja alterar outro campo?");
-                decis = read.next();
                 countCampo++;
-
-                if (decis.equalsIgnoreCase("sim")) {
-                    aluno();
-                } else {
-                    App.padrao();
-                }
                 break;
             case 5:
                 System.out.println("Digite a nova cidade: ");
-                String cidade = read.next();
+                String cidade = read.nextLine();
                 aluno.setCidade(cidade);
                 System.out.println("Campo alterado");
-                System.out.println("Você deseja alterar outro campo?");
-                decis = read.next();
                 countCampo++;
-
-                if (decis.equalsIgnoreCase("sim")) {
-                    aluno();
-                } else {
-                    em.getTransaction().begin();
-                    em.merge(aluno);
-                    em.getTransaction().commit();
-                    System.out.println("Total de " + countCampo + " alterados");
-                    em.close();
-                    emf.close();
-                    App.padrao();
-                }
                 break;
+        }
+
+        System.out.println("Você deseja alterar outro campo?");
+        String decis = read.next();
+        System.out.println(decis);
+
+
+        if (decis.equalsIgnoreCase("sim")) {
+            aluno();
+        } else {
+            em.getTransaction().begin();
+            em.merge(aluno);
+            em.getTransaction().commit();
+            System.out.println("Total de " + countCampo + " campo(s) alterados");
+            em.close();
+            emf.close();
+            App.padrao();
         }
 
 

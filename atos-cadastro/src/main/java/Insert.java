@@ -28,7 +28,6 @@ public class Insert {
             String cidade = read.nextLine();
 
             Aluno student = new Aluno(null, cpf, nome, email, estado, cidade);
-            App.list.add(student);
 
             em.getTransaction().begin(); // começo da transação
             em.persist(student);
