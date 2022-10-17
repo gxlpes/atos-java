@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="Update funct">
+    <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="Fix update method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/Consult.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/Consult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/Insert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/Update.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665965015663</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix update method">
+      <created>1666010197239</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666010197239</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +110,7 @@
     <MESSAGE value="New project" />
     <MESSAGE value="Updates in project" />
     <MESSAGE value="Update funct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update funct" />
+    <MESSAGE value="Fix update method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix update method" />
   </component>
 </project>
