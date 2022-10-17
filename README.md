@@ -61,6 +61,13 @@ Navigation between lessons is done using the repository branches.
  <li>MySQL</li>
  <li>JPA (Java Persistence API)</li>
   <li><a href="https://github.com/gxlpes/atos-java/tree/008_aula_141022/atos-cadastro">Atos Cadastro Project</a></li>
-
 </ul>
+  <br/>
+  
+    
+ <li><b><a href="https://github.com/gxlpes/atos-java/tree/009_aula_141022">Aula 009 - 14/10/22</a></b></li>
+ <ul>
+ <li>Servlets</li>
+</ul>
+  <br/>
 </ul>
