@@ -1,3 +1,5 @@
+package db;
+
 import javax.persistence.*;
 import java.util.List;
 import java.util.logging.Level;
@@ -11,7 +13,7 @@ public class Consult {
             EntityManagerFactory emf = Persistence.createEntityManagerFactory("atos_cadastro"); // instancia o entity manager com config do persistence.xml
             EntityManager em = emf.createEntityManager(); // contexto de persistência e conexão com o banco
 
-            String jpql = "select u from Aluno u";
+            String jpql = "select u from db.Aluno u";
             TypedQuery<Aluno> query = em.createQuery(jpql, Aluno.class);
             query.setMaxResults(40);
 

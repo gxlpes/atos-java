@@ -1,6 +1,11 @@
+package db;
+
+import principal.App;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -28,10 +33,8 @@ public class Delete {
             em.remove(p);
             em.getTransaction().commit();
             System.out.println("Aluno deletado do sistema de cadastro");
-            App.padrao();
         } else {
             System.out.println("IDs não coincidem, tente novamente");
-            App.padrao();
         }
 
 

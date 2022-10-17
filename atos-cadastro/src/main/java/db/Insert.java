@@ -1,3 +1,7 @@
+package db;
+
+import principal.App;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -40,7 +44,6 @@ public class Insert {
         } while (dec.equals("sim") || dec.equals("Sim"));
 
         System.out.println("Implementação realizada com sucesso!");
-        App.padrao();
 
         em.close(); // fechar o entity manager
         emf.close(); // fechar

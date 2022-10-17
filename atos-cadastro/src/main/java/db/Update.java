@@ -1,3 +1,8 @@
+package db;
+
+import log.Arquive;
+import principal.App;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -79,7 +84,6 @@ public class Update {
             System.out.println("Total de " + countCampo + " campo(s) alterados");
             em.close();
             emf.close();
-            App.padrao();
         }
 
 

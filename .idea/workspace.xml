@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="Fix update method">
+      <change afterPath="$PROJECT_DIR$/Log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log.txt.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/log/Arquive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/log/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/principal/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/Consult.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Consult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/Consult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/Delete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/Insert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/Update.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +55,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Git.Branch.Popup.ShowAllRemotes": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Guilherme Lopes\repos\atos-java\atos-cadastro" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="principal.App" />
+      <module name="atos-cadastro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -112,5 +144,8 @@
     <MESSAGE value="Update funct" />
     <MESSAGE value="Fix update method" />
     <option name="LAST_COMMIT_MESSAGE" value="Fix update method" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/atos_java$App.ic" NAME="App Coverage Results" MODIFIED="1666037444597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

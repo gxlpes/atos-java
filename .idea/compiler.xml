@@ -9,5 +9,8 @@
         <module name="atos-cadastro" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="testing" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
