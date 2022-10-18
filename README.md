@@ -60,14 +60,23 @@ Navigation between lessons is done using the repository branches.
  <li>Hibernate</li>
  <li>MySQL</li>
  <li>JPA (Java Persistence API)</li>
-  <li><a href="https://github.com/gxlpes/atos-java/tree/008_aula_141022/atos-cadastro">Atos Cadastro Project</a></li>
+  <li><a href="https://github.com/gxlpes/atos-java/tree/008_aula_131022/atos-cadastro">Atos Cadastro Project</a></li>
 </ul>
   <br/>
   
     
- <li><b><a href="https://github.com/gxlpes/atos-java/tree/008_aula_131022/atos-cadastro">Aula 009 - 14/10/22</a></b></li>
+ <li><b><a href="https://github.com/gxlpes/atos-java/tree/009_aula_141022/atos-cadastro">Aula 009 - 14/10/22</a></b></li>
  <ul>
  <li>Servlets</li>
+</ul>
+  <br/>
+  
+ <li><b><a href="https://github.com/gxlpes/atos-java/tree/010_aula_171022/atos-cadastro">Aula 010 - 17/10/22</a></b></li>
+ <ul>
+ <li>Multiple tables with JPA/Hibernate</li>
+ <li>Many to one relationship</li>
+ <li>One to many relationship</li>
+
 </ul>
   <br/>
 </ul>
