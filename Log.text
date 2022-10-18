@@ -1,0 +1,228 @@
+out. 17, 2022 11:37:28 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:37:31 PM db.Consult all
+WARNING: Tentativa de consulta ao banco de dados que estava vazio
+out. 17, 2022 11:37:31 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:41:39 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:44:09 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:44:13 PM db.Consult all
+WARNING: Tentativa de consulta ao banco de dados que estava vazio
+out. 17, 2022 11:44:13 PM db.Update aluno
+WARNING: Tentativa de atualizar dados, porém o banco de dados que estava vazio
+out. 17, 2022 11:44:13 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:44:49 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:44:52 PM db.Update aluno
+WARNING: Tentativa de atualizar dados, porém o banco de dados que estava vazio
+out. 17, 2022 11:44:52 PM principal.App padrao
+FINEST: Atualização realizada
+out. 17, 2022 11:44:52 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:46:04 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:46:08 PM db.Consult all
+WARNING: Tentativa de consulta ao banco de dados que estava vazio
+out. 17, 2022 11:46:08 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:47:32 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:48:04 PM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 17, 2022 11:48:04 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:50:21 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:50:32 PM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 17, 2022 11:50:32 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:51:53 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:52:05 PM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 17, 2022 11:52:05 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:55:19 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:55:29 PM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 17, 2022 11:55:29 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:56:50 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:57:14 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:57:32 PM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 17, 2022 11:57:32 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:57:36 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:57:46 PM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 17, 2022 11:57:46 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:58:51 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 17, 2022 11:58:58 PM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 17, 2022 11:58:58 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 12:00:24 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 12:01:49 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 12:02:14 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 12:02:25 AM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 18, 2022 12:02:25 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 12:02:59 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 12:03:07 AM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 18, 2022 12:03:07 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:37:19 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:37:36 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:38:03 AM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 18, 2022 6:38:03 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:40:47 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:40:58 AM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 18, 2022 6:40:58 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:44:55 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:45:05 AM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 18, 2022 6:45:05 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:48:18 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:48:41 AM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 18, 2022 6:48:41 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:50:55 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:51:04 AM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 18, 2022 6:51:04 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:55:44 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:55:52 AM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 18, 2022 6:55:56 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:56:17 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:56:32 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:56:58 AM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 18, 2022 6:57:34 AM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados
+out. 18, 2022 6:58:24 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:58:46 AM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados, nome asde ID 20
+out. 18, 2022 6:58:55 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 6:59:25 AM db.Update aluno
+FINEST: Nome alteradoRonaldinho
+out. 18, 2022 6:59:27 AM principal.App padrao
+FINEST: Atualização realizada
+out. 18, 2022 6:59:27 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:00:44 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:00:55 AM db.Update aluno
+FINEST: Nome alteradoHAHAHAH
+out. 18, 2022 7:00:58 AM principal.App padrao
+FINEST: Atualização realizada
+out. 18, 2022 7:00:58 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:02:02 AM principal.App padrao
+FINEST: Saída do programa
+out. 18, 2022 7:02:17 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:02:22 AM principal.App padrao
+FINEST: Consulta realizada
+out. 18, 2022 7:02:22 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:07:19 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:07:38 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:08:17 AM principal.App padrao
+FINEST: Consulta realizada
+out. 18, 2022 7:08:17 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:10:09 AM principal.App padrao
+FINEST: Saída do programa
+out. 18, 2022 7:10:22 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:10:38 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:10:40 AM principal.App padrao
+FINEST: Consulta realizada
+out. 18, 2022 7:10:40 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:10:58 AM principal.App padrao
+FINEST: Saída do programa
+out. 18, 2022 7:11:03 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:11:13 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:11:26 AM principal.App padrao
+FINEST: Consulta realizada
+out. 18, 2022 7:11:26 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:12:56 AM principal.App padrao
+FINEST: Saída do programa
+out. 18, 2022 7:13:16 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:13:32 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:13:35 AM principal.App padrao
+FINEST: Consulta realizada
+out. 18, 2022 7:13:35 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 7:13:48 AM principal.App padrao
+FINEST: Saída do programa
+out. 18, 2022 7:15:13 AM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 1:13:27 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 1:13:41 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 1:13:45 PM principal.App padrao
+FINEST: Consulta realizada
+out. 18, 2022 1:13:45 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 1:18:00 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 1:18:55 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 1:19:03 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 1:19:07 PM principal.App padrao
+FINEST: Consulta realizada
+out. 18, 2022 1:19:07 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 1:20:12 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 18, 2022 1:20:42 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função

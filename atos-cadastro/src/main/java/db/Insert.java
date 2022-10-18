@@ -1,24 +1,23 @@
 package db;
 
-import principal.App;
+import log.Log;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import java.io.IOException;
+
 import java.util.Scanner;
 import java.util.logging.Level;
 
 public class Insert {
-    static String dec;
 
-
-    public static void novoAluno() throws IOException {
+    public static void novoAluno(Log logger, Scanner read) {
         java.util.logging.Logger.getLogger("org.hibernate").setLevel(Level.OFF);
+
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("atos_cadastro");
         EntityManager em = emf.createEntityManager();
-        Scanner read = new Scanner(System.in);
 
+        String dec;
         do {
             System.out.println("Digite o CPF");
             String cpf = read.nextLine();
@@ -41,16 +40,19 @@ public class Insert {
             em.persist(student);
             em.getTransaction().commit();
 
+            logger.logger.setLevel(Level.INFO);
+            logger.logger.info("Novo aluno inserido no banco de dados, nome " + nome + "e ID " + student.getId() );
 
             System.out.println("Você deseja continuar?");
+            read.nextLine();
             dec = read.nextLine();
 
-        } while (dec.equals("sim") || dec.equals("Sim"));
+        } while (dec.equalsIgnoreCase("sim"));
 
         System.out.println("Implementação realizada com sucesso!");
 
         em.close();
         emf.close();
-        read.close();
+
     }
 }

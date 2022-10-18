@@ -1,27 +1,27 @@
+
 package log;
 
+import java.io.File;
 import java.io.IOException;
-import java.util.logging.Level;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 public class Log {
-    static Float result, n1, n2;
+    public Logger logger;
+    FileHandler fh;
+    public static Object log;
 
-    public static void main(String[] args) throws IOException, InterruptedException {
-
-        Arquive log = new Arquive("Log.txt");
-        log.logger.setLevel(Level.FINEST);
-        log.logger.finest("Execution started");
-        Thread.sleep(2000);
-
-        result = n1 / n2;
-
-        if (result.isInfinite()) {
-            log.logger.setLevel(Level.WARNING);
-            log.logger.warning("Result is infinite, aborting execution.");
-        } else {
-            log.logger.setLevel(Level.INFO);
-            log.logger.info("Result is: " + result);
+    public Log(String nome_arquivo) throws IOException {
+        File f = new File(nome_arquivo);
+        if (!f.exists()) {
+            f.createNewFile();
         }
 
+        this.fh = new FileHandler(nome_arquivo, true);
+        this.logger = Logger.getLogger("Logging");
+        this.logger.addHandler(this.fh);
+        SimpleFormatter formatter = new SimpleFormatter();
+        this.fh.setFormatter(formatter);
     }
 }

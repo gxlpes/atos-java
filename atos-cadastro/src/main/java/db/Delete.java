@@ -1,8 +1,14 @@
 package db;
 
+import log.Log;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+
+import javax.transaction.Transactional;
 
 import java.util.List;
 import java.util.Scanner;
@@ -11,13 +17,13 @@ import java.util.logging.Level;
 public class Delete {
 
 
-    public static void aluno()   {
+    public static void aluno(Log logger, Scanner read)   {
         java.util.logging.Logger.getLogger("org.hibernate").setLevel(Level.OFF);
+
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("atos_cadastro"); // instancia o entity manager com config do persistence.xml
         EntityManager em = emf.createEntityManager(); // contexto de persistência e conexão com o banco
-        Scanner read = new Scanner(System.in);
 
-        List<Aluno> alunos = Consult.all();
+        List<Aluno> alunos = Consult.all(logger);
 
         if (!alunos.isEmpty()) {
             System.out.println("Qual aluno você deseja excluir do cadastro? Digite o seu ID");
@@ -37,4 +43,18 @@ public class Delete {
             }
         }
     }
-}
+@Transactional
+    public static void truncate() {
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("atos_cadastro"); // instancia o entity manager com config do persistence.xml
+        EntityManager em = emf.createEntityManager(); // contexto de persistência e conexão com o banco
+
+        Session session = (Session) em.getDelegate();
+        Transaction transaction = session.getTransaction();
+
+   transaction.begin();
+        session.createSQLQuery("TRUNCATE  Aluno").executeUpdate();
+
+        transaction.commit();
+        session.close();
+}}
+

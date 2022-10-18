@@ -5,50 +5,67 @@ import db.Delete;
 import db.Insert;
 import db.Update;
 
+import log.Log;
 
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.logging.Level;
 
 public class App {
-    static String user;
-    static int userChoice;
-
     public static void main(String[] args) throws IOException {
-        padrao();
+        Log logger = new Log("Log.text");
+        Scanner read = new Scanner(System.in);
+        padrao(logger, read);
     }
 
-    public static void padrao() throws IOException {
-        Scanner read = new Scanner(System.in);
+    public static void padrao(Log logger, Scanner read) throws IOException {
+
+        logger.logger.setLevel(Level.FINEST);
+        logger.logger.finest("Iniciou procedimento padrão para escolha de função");
 
         System.out.println("\nSISTEMA DE CADASTRO ATOS");
 
         System.out.println("1) Atualizar \n2) Inserir \n3) Excluir \n4) Consultar \n5) Sair");
 
-        userChoice = read.nextInt();
+        String sUserChoice = read.nextLine();
+        int userChoice = Integer.parseInt(sUserChoice);
 
         switch (userChoice) {
             case 1:
                 System.out.println("\nATUALIZAR");
-                Update.aluno();
+                Update.aluno(logger, read);
+                logger.logger.finest("Atualização realizada");
                 break;
             case 2:
                 System.out.println("\nINSERIR ALUNO");
-                Insert.novoAluno();
+                Insert.novoAluno(logger, read);
+                logger.logger.finest("Inserção realizada");
                 break;
             case 3:
                 System.out.println("\nEXCLUIR ALUNO");
-                Delete.aluno();
+                System.out.println("Você deseja excluir toda a tabela ou apenas um aluno?");
+                String dec = read.nextLine();
+
+                if(dec.equalsIgnoreCase("aluno")) {
+                    Delete.aluno(logger, read);
+                } else {
+                    Delete.truncate();
+                }
+                logger.logger.finest("Exclusão realizada");
                 break;
             case 4:
                 System.out.println("\nCONSULTAR");
-                Consult.all();
+                Consult.all(logger);
+                logger.logger.finest("Consulta realizada");
                 break;
             case 5:
                 System.out.println("\nSISTEMA ENCERRANDO...");
+                logger.logger.finest("Saída do programa");
                 System.exit(1);
                 break;
         }
-        padrao();;
+
+        padrao(logger, read);
+
     }
 }
