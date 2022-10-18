@@ -27,7 +27,7 @@ public class Insert {
             System.out.println("Digite o email");
             String email = read.nextLine();
             System.out.println("Digite o estado");
-            String estado = read.nextLine();
+            String estado = read.nextLine().toUpperCase();
             System.out.println("Digite a cidade");
             String cidade = read.nextLine();
             System.out.println("Digite o ano");

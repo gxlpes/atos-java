@@ -7,18 +7,22 @@ import java.util.logging.Level;
 
 public class Consult {
 
-    public static void all() {
+    public static List<Aluno> all() {
 
-            java.util.logging.Logger.getLogger("org.hibernate").setLevel(Level.OFF);
-            EntityManagerFactory emf = Persistence.createEntityManagerFactory("atos_cadastro"); // instancia o entity manager com config do persistence.xml
-            EntityManager em = emf.createEntityManager(); // contexto de persistência e conexão com o banco
+        java.util.logging.Logger.getLogger("org.hibernate").setLevel(Level.OFF);
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("atos_cadastro"); // instancia o entity manager com config do persistence.xml
+        EntityManager em = emf.createEntityManager(); // contexto de persistência e conexão com o banco
 
-            String jpql = "select u from db.Aluno u";
-            TypedQuery<Aluno> query = em.createQuery(jpql, Aluno.class);
-            query.setMaxResults(40);
+        String jpql = "select u from db.Aluno u";
+        TypedQuery<Aluno> query = em.createQuery(jpql, Aluno.class);
+        query.setMaxResults(40);
 
-            List<Aluno> alunos = query.getResultList();
+        List<Aluno> alunos = query.getResultList();
 
+        if (alunos.isEmpty()) {
+            System.out.println("Banco de dados vazio. Impossível consultar no momento.");
+            return alunos;
+        } else {
             for (Aluno aluno : alunos) {
                 System.out.println("ID: " + aluno.getId() + " | " + "CPF: " + aluno.getCpf() + " | " + "Nome: " + aluno.getNome() + " | " + "Email: " + aluno.getEmail() + " | " + "Estado: " + aluno.getEstado() + " | " + "Cidade: " + aluno.getCidade() + " | " + "Ano: " + aluno.getAno() + " | " + "Semestre: " + aluno.getSemestre());
             }
@@ -26,9 +30,8 @@ public class Consult {
             em.close();
             emf.close();
 
+        }
 
-
+        return alunos;
     }
-
-
 }

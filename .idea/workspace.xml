@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="Update and log updatees">
+    <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log.txt.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Aluno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Consult.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Consult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Delete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Insert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Update.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/principal/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/principal/App.java" afterDir="false" />
@@ -64,8 +66,10 @@
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Java/jdk-17.0.4.1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="principal.App" />
-      <module name="atos-cadastro" />
+      <module name="atos-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,6 +146,10 @@
     <MESSAGE value="Fix update method" />
     <MESSAGE value="Update and log updatees" />
     <option name="LAST_COMMIT_MESSAGE" value="Update and log updatees" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/atos_java$App.ic" NAME="App Coverage Results" MODIFIED="1666037444597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
