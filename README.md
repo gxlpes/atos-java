@@ -2,88 +2,19 @@
 
 Navigation between lessons is done using the repository branches.
 
-<ul>
-  <li><b><a href="https://github.com/gxlpes/atos-java/tree/001_aula_210922">Aula 001 - 21/09/22</a></b></li>
-  <ul>
-    <li>Basic syntax of Java</li>
-  </ul>
- <br/>
-  <li><b><a href="https://github.com/gxlpes/atos-java/tree/002_aula_230922">Aula 002 - 23/09/22</a></b></li>
-  <ul>
-      <li>OOP programming</li>
-      <li>Methods</li>
-       <li>Attributes</li>
-  </ul>
-   <br/>
-<li><b><a href="https://github.com/gxlpes/atos-java/tree/003_aula_290922">Aula 003 - 29/09/22</a></b></li>
-  <ul>
-    <li>Inheritance</li>
-    <li>Constructors</li>
-  </ul>
-   <br/>
+| Repo | Aula | Data    | Description 
+|:---:|:--------:|:---------:|:-------------|
+| <a href="https://github.com/gxlpes/atos-java/tree/001_aula_210922">Link</a> | 001 | 21/09/22 | Basic syntax of Java 
+| <a href="https://github.com/gxlpes/atos-java/tree/002_aula_230922">Link</a> | 002 | 23/09/22 | OOP, Methods, Attributes
+| <a href="https://github.com/gxlpes/atos-java/tree/003_aula_290922">Link</a>| 003 | 29/09/22 | Inheritance, Constructors 
+| <a href="https://github.com/gxlpes/atos-java/tree/004_aula_300922">Link</a> | 004 | 30/09/22 | Abstract classes, Interfaces, Polimorfism 
+| <a href="https://github.com/gxlpes/atos-java/tree/005_aula_051022">Link</a> | 005 | 05/10/22 | Java JDBC, Polimorfism w/ queries, DB queries 
+| <a href="https://github.com/gxlpes/atos-java/tree/006_aula_071022">Link</a> | 006 | 07/10/22 | Maven management, MVN dependencies 
+| <a href="https://github.com/gxlpes/atos-java/tree/007_aula_101022">Link</a>| 007 | 10/10/22 | Profiling, Debugging, Logging, <a href="https://github.com/gxlpes/atos-java/tree/007_aula_101022/logging3">Logging Project</a>
+| <a href="https://github.com/gxlpes/atos-java/tree/008_aula_131022">Link</a>| 008 | 13/10/22 | Hibernate, MySQL, JPA, <a href="https://github.com/gxlpes/atos-java/tree/008_aula_131022/atos-cadastro">Atos Cadastro Project</a>
+| <a href="https://github.com/gxlpes/atos-java/tree/009_aula_141022">Link</a>| 009 | 14/10/22 | Servlets
+| <a href="https://github.com/gxlpes/atos-java/tree/010_aula_171022">Link</a>| 010 | 17/10/22 | Multiple tables with JPA/Hibernate, ManyToOne, OneToMany
 
-<li><b><a href="https://github.com/gxlpes/atos-java/tree/004_aula_300922">Aula 004 - 30/09/22</a></b></li>
-  <ul>
-    <li>Abstract classes</li>
-    <li>Interfaces</li>
-    <li>Polimorfism</li>
-   </ul>
-    <br/>
 
-<li><b><a href="https://github.com/gxlpes/atos-java/tree/005_aula_051022">Aula 005 - 05/10/22</a></b></li>
-  <ul>
-    <li>Java JDBC</li>
-    <li>Polimorfism w/ queries</li>
-    <li>DB queries</li>
-    <li><a href="https://github.com/gxlpes/atos-java/tree/006_aula_071022/demo">Java JDBC Project</a></li>
-  </ul>
-  <br/>
-  
- <li><b><a href="https://github.com/gxlpes/atos-java/tree/006_aula_071022">Aula 006 - 07/10/22</a></b></li>
- <ul>
- <li>Maven management</li>
- <li>MVN Dependencies</li>
- </ul>
 
-<br/>
- <li><b><a href="https://github.com/gxlpes/atos-java/tree/007_aula_101022">Aula 007 - 10/10/22</a></b></li>
- <ul>
- <li>Profiling</li>
- <li>Debugging</li>
- <li>Logging</li>
- <li><a href="https://github.com/gxlpes/atos-java/tree/007_aula_101022/logging3">Logging Project</a></li>
-</ul>
-<br/>
-  
- <li><b><a href="https://github.com/gxlpes/atos-java/tree/008_aula_131022">Aula 008 - 13/10/22</a></b></li>
- <ul>
- <li>Hibernate</li>
- <li>MySQL</li>
- <li>JPA (Java Persistence API)</li>
-  <li><a href="https://github.com/gxlpes/atos-java/tree/008_aula_131022/atos-cadastro">Atos Cadastro Project</a></li>
-</ul>
-  <br/>
-  
-    
- <li><b><a href="https://github.com/gxlpes/atos-java/tree/009_aula_141022">Aula 009 - 14/10/22</a></b></li>
- <ul>
- <li>Servlets</li>
-</ul>
-  <br/>
-  
- <li><b><a href="https://github.com/gxlpes/atos-java/tree/010_aula_171022">Aula 010 - 17/10/22</a></b></li>
- <ul>
- <li>Multiple tables with JPA/Hibernate</li>
- <li>Many to one relationship</li>
- <li>One to many relationship</li>
-
-</ul>
-  <br/>
-</ul>
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
