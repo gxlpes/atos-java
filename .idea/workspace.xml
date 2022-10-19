@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="Refactor code 1">
-      <change afterPath="$PROJECT_DIR$/Log.text" afterDir="false" />
+    <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Consult.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Consult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Delete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Insert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Update.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/log/Arquive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/log/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/log/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/principal/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/principal/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +64,11 @@
       <recent name="C:\Users\Guilherme Lopes\repos\atos-java\atos-cadastro" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="principal.App" />
-      <module name="atos-cadastro" />
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Java/jdk-17.0.4.1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="atos-cadastro.App" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="principal.*" />
@@ -90,15 +83,15 @@
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Java/jdk-17.0.4.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="principal.App" />
-      <module name="atos-java" />
+      <module name="atos-cadastro" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.App (1)" />
       </list>
     </recent_temporary>
   </component>
