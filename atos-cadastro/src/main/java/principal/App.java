@@ -51,6 +51,7 @@ public class App {
                 } else {
                     Delete.truncate();
                 }
+
                 logger.logger.finest("Exclusão realizada");
                 break;
             case 4:

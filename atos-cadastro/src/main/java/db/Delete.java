@@ -17,7 +17,7 @@ import java.util.logging.Level;
 public class Delete {
 
 
-    public static void aluno(Log logger, Scanner read)   {
+    public static void aluno(Log logger, Scanner read) {
         java.util.logging.Logger.getLogger("org.hibernate").setLevel(Level.OFF);
 
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("atos_cadastro"); // instancia o entity manager com config do persistence.xml
@@ -27,10 +27,11 @@ public class Delete {
 
         if (!alunos.isEmpty()) {
             System.out.println("Qual aluno você deseja excluir do cadastro? Digite o seu ID");
-            int aluno1 = read.nextInt();
+            int aluno1 = Integer.parseInt(read.nextLine());
             System.out.println("Você tem certeza que deseja excluir o aluno com ID " + aluno1 + "?");
             System.out.println("Digite o ID novamente para confirmar a sua escolha");
-            int aluno2 = read.nextInt();
+            int aluno2 = Integer.parseInt(read.nextLine());
+
 
             if (aluno1 == aluno2) {
                 Aluno p = em.find(Aluno.class, aluno1);
@@ -43,18 +44,23 @@ public class Delete {
             }
         }
     }
-@Transactional
+
+    @Transactional
     public static void truncate() {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("atos_cadastro"); // instancia o entity manager com config do persistence.xml
-        EntityManager em = emf.createEntityManager(); // contexto de persistência e conexão com o banco
+        java.util.logging.Logger.getLogger("org.hibernate").setLevel(Level.OFF);
+
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("atos_cadastro");
+        EntityManager em = emf.createEntityManager();
 
         Session session = (Session) em.getDelegate();
         Transaction transaction = session.getTransaction();
 
-   transaction.begin();
+        transaction.begin();
         session.createSQLQuery("TRUNCATE  Aluno").executeUpdate();
+        System.out.println("Tabela  deletada do sistema de cadastro");
 
         transaction.commit();
         session.close();
-}}
+    }
+}
 
