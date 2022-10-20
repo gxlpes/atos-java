@@ -8,13 +8,15 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/test")
-public class MyServlet extends HttpServlet {
+public class Servlet extends HttpServlet {
 
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        PrintWriter writer = resp.getWriter();
-        writer.println("Olá");
-        writer.flush();
+    public Servlet() {
+
     }
+    @Override
+    public  void doGet(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
+        PrintWriter writer = resp.getWriter();
+        writer.println("<h1>Hello, World!</h1>");
+    }
+
 }

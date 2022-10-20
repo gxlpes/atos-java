@@ -9,18 +9,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemplo01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemplo01/src/main/java/br/com/testing/MyServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemplo01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemplo01/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_10_2022_23_01__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_10_2022_23_01__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_10_2022_23_01__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_10_2022_23_01__Changes_1.xml" afterDir="false" />
+    <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="Initial project">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exemplo01/src/main/java/br/com/testing/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exemplo01/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exemplo01/target/exemplo01.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-drum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-hello-world" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-practice/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-practice/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-practice/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_10_2022_23_01__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_10_2022_23_01__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo01/src/main/java/br/com/testing/MyServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo01/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap-practice" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap-practice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hero-page" beforeDir="false" afterPath="$PROJECT_DIR$/../hero-page" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js-practice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../js-practice/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js-practice/practice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js-practice/practice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../odin-recipes" beforeDir="false" afterPath="$PROJECT_DIR$/../odin-recipes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio-website" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio-website" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rock-paper-scissors" beforeDir="false" afterPath="$PROJECT_DIR$/../rock-paper-scissors" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../survey-form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../survey-form/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../survey-form/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../survey-form/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tribute-page" beforeDir="false" afterPath="$PROJECT_DIR$/../tribute-page" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +46,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -67,37 +83,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Git.Branch.Popup.ShowAllRemotes": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Guilherme Lopes/repos/atos-java",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Guilherme Lopes/repos/atos-java/exemplo01/src/main/webapp/index.html&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Guilherme Lopes\repos\atos-java\atos-cadastro" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager">
-    <configuration name="Tomcat 10.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="exemplo01:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/firstservlet" />
+            <option name="CONTEXT_PATH" value="/a" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="3b218a3c-4d53-4ae4-ae4c-b53af9750b70" />
+        <option name="BASE_DIRECTORY_NAME" value="071c00fa-8931-4936-b2d4-3f91a52287b3" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -105,7 +134,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50189" />
+        <option name="DEBUG_PORT" value="52067" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -174,6 +203,18 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -183,6 +224,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665871463934</updated>
+      <workItem from="1666266794466" duration="4766000" />
+      <workItem from="1666271700376" duration="105000" />
     </task>
     <task id="LOCAL-00001" summary="New project">
       <created>1665871848188</created>
@@ -219,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666037995455</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial project">
+      <created>1666264371329</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666264371329</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +293,8 @@
     <MESSAGE value="Update funct" />
     <MESSAGE value="Fix update method" />
     <MESSAGE value="Update and log updatees" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update and log updatees" />
+    <MESSAGE value="Initial project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial project" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/atos_java$App.ic" NAME="App Coverage Results" MODIFIED="1666037444597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
