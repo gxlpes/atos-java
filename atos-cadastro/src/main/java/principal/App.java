@@ -36,17 +36,19 @@ public class App {
                 Update.aluno(logger, read);
                 logger.logger.finest("Atualização realizada");
                 break;
+
             case 2:
                 System.out.println("\nINSERIR ALUNO");
                 Insert.novoAluno(logger, read);
                 logger.logger.finest("Inserção realizada");
                 break;
+
             case 3:
                 System.out.println("\nEXCLUIR ALUNO");
                 System.out.println("Você deseja excluir toda a tabela ou apenas um aluno?");
                 String dec = read.nextLine();
 
-                if(dec.equalsIgnoreCase("aluno")) {
+                if (dec.equalsIgnoreCase("aluno")) {
                     Delete.aluno(logger, read);
                 } else {
                     Delete.truncate();
@@ -54,11 +56,13 @@ public class App {
 
                 logger.logger.finest("Exclusão realizada");
                 break;
+
             case 4:
                 System.out.println("\nCONSULTAR");
                 Consult.all(logger);
                 logger.logger.finest("Consulta realizada");
                 break;
+
             case 5:
                 System.out.println("\nSISTEMA ENCERRANDO...");
                 logger.logger.finest("Saída do programa");

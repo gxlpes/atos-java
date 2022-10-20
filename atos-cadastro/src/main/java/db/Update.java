@@ -36,7 +36,7 @@ public class Update {
                     String cpf = read.next();
                     aluno.setCpf(cpf);
                     System.out.println("Campo alterado");
-                    logger.logger.finest("CPF alterado "+ aluno.getNome());
+                    logger.logger.finest("CPF alterado " + aluno.getNome());
                     countCampo++;
                     break;
                 case 2:
@@ -44,7 +44,7 @@ public class Update {
                     String nome = read.nextLine();
                     aluno.setNome(nome);
                     System.out.println("Campo alterado");
-                    logger.logger.finest("Nome alterado "+ aluno.getNome());
+                    logger.logger.finest("Nome alterado " + aluno.getNome());
                     countCampo++;
                     break;
                 case 3:
@@ -52,7 +52,7 @@ public class Update {
                     String email = read.next();
                     aluno.setEmail(email);
                     System.out.println("Campo alterado");
-                    logger.logger.finest("Email alterado "+ aluno.getNome());
+                    logger.logger.finest("Email alterado " + aluno.getNome());
                     countCampo++;
                     break;
                 case 4:
@@ -60,7 +60,7 @@ public class Update {
                     String estado = read.next();
                     aluno.setEstado(estado);
                     System.out.println("Campo alterado");
-                    logger.logger.finest("Estado alterado "+ aluno.getNome());
+                    logger.logger.finest("Estado alterado " + aluno.getNome());
                     countCampo++;
                     break;
                 case 5:
@@ -68,7 +68,7 @@ public class Update {
                     String cidade = read.nextLine();
                     aluno.setCidade(cidade);
                     System.out.println("Campo alterado");
-                    logger.logger.finest("Cidade alterada "+ aluno.getNome());
+                    logger.logger.finest("Cidade alterada " + aluno.getNome());
                     countCampo++;
                     break;
                 case 6:
@@ -100,6 +100,7 @@ public class Update {
                 em.getTransaction().commit();
 
                 aluno(logger, read);
+
             } else {
                 em.getTransaction().begin();
                 em.merge(aluno);

@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="Simple project with Tomcat">
+    <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="Update project">
       <change afterPath="$PROJECT_DIR$/Log.text" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/db/Update.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/java/principal/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/java/principal/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/db/Delete.class" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/target/classes/db/Delete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/db/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/target/classes/db/Aluno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/db/Update.class" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/target/classes/db/Update.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atos-cadastro/target/classes/principal/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/atos-cadastro/target/classes/principal/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/org/example/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/org/example/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665871463934</updated>
-      <workItem from="1666292974789" duration="2113000" />
+      <workItem from="1666292974789" duration="4827000" />
     </task>
     <task id="LOCAL-00001" summary="New project">
       <created>1665871848188</created>
@@ -155,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666059175794</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update project">
+      <created>1666303327193</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666303327193</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +197,8 @@
     <MESSAGE value="Fix update method" />
     <MESSAGE value="Update and log updatees" />
     <MESSAGE value="Refactor code 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor code 1" />
+    <MESSAGE value="Update project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update project" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

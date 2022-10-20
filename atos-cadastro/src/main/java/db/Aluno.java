@@ -95,11 +95,19 @@ public class Aluno implements Serializable {
         this.cidade = cidade;
     }
 
-    public void setAno(Integer ano) {this.ano = ano;}
+    public void setAno(Integer ano) {
+        this.ano = ano;
+    }
 
-    public int getAno() {return ano;}
+    public int getAno() {
+        return ano;
+    }
 
-    public void setSemestre(Integer semestre) {this.semestre = semestre;}
+    public void setSemestre(Integer semestre) {
+        this.semestre = semestre;
+    }
 
-    public int getSemestre() {return semestre;}
+    public int getSemestre() {
+        return semestre;
+    }
 }

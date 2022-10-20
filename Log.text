@@ -1,0 +1,32 @@
+out. 20, 2022 7:29:08 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 20, 2022 7:30:52 PM db.Insert novoAluno
+INFO: Novo aluno inserido no banco de dados, nome Guilhermee ID 1
+out. 20, 2022 7:31:03 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 20, 2022 7:31:36 PM db.Update aluno
+FINEST: CPF alterado Guilherme
+out. 20, 2022 7:31:36 PM principal.App padrao
+FINEST: Atualização realizada
+out. 20, 2022 7:31:36 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 20, 2022 7:33:58 PM principal.App padrao
+FINEST: Exclusão realizada
+out. 20, 2022 7:33:58 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 20, 2022 7:34:09 PM principal.App padrao
+FINEST: Exclusão realizada
+out. 20, 2022 7:34:09 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 20, 2022 7:34:17 PM db.Consult all
+WARNING: Tentativa de consulta ao banco de dados que estava vazio
+out. 20, 2022 7:34:17 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 20, 2022 7:38:35 PM db.Consult all
+WARNING: Tentativa de consulta ao banco de dados que estava vazio
+out. 20, 2022 7:38:35 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 20, 2022 7:39:46 PM principal.App padrao
+FINEST: Iniciou procedimento padrão para escolha de função
+out. 20, 2022 7:39:50 PM principal.App padrao
+FINEST: Saída do programa

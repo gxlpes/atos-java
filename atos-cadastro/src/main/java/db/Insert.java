@@ -41,7 +41,7 @@ public class Insert {
             em.getTransaction().commit();
 
             logger.logger.setLevel(Level.INFO);
-            logger.logger.info("Novo aluno inserido no banco de dados, nome " + nome + "e ID " + student.getId() );
+            logger.logger.info("Novo aluno inserido no banco de dados, nome " + nome + "e ID " + student.getId());
 
             System.out.println("Você deseja continuar?");
             read.nextLine();
