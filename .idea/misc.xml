@@ -6,10 +6,12 @@
       <list>
         <option value="$PROJECT_DIR$/atos-cadastro/pom.xml" />
         <option value="$PROJECT_DIR$/jpa_mapeamento/pom.xml" />
+        <option value="$PROJECT_DIR$/OneToManyy/pom.xml" />
+        <option value="$PROJECT_DIR$/OneToMany/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" default="true">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

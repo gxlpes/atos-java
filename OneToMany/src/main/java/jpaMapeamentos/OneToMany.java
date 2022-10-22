@@ -14,8 +14,7 @@ public class OneToMany {
 
     public static void main(String[] args) {
         EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("jpaMapeamento_n_2");
-        EntityManager entitymanager = emfactory.
-                createEntityManager();
+        EntityManager entitymanager = emfactory.createEntityManager();
         entitymanager.getTransaction().begin();
 
         //Criando a entidade empregado 1
