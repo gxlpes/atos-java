@@ -1,0 +1,9 @@
+out. 22, 2022 6:55:21 PM com.principal.ManyToOne main
+INFO: Log de informação
+out. 22, 2022 6:55:21 PM com.principal.ManyToOne main
+WARNING: Log de Aviso
+out. 22, 2022 6:55:21 PM com.principal.ManyToOne main
+SEVERE: Log Severo
+out. 22, 2022 6:55:22 PM com.principal.ManyToOne main
+INFO: 
+A entidade manager factory jpaMapeamento_n_1 foi criada!!

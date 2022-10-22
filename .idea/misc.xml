@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/jpa_mapeamento/pom.xml" />
         <option value="$PROJECT_DIR$/OneToManyy/pom.xml" />
         <option value="$PROJECT_DIR$/OneToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/ManyToOne/pom.xml" />
       </list>
     </option>
   </component>
