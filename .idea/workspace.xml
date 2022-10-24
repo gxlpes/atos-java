@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="Updated OneToMany project">
-      <change afterPath="$PROJECT_DIR$/ManyToOne/src/main/java/com/jpaMapeamento1/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManyToOne/src/main/java/com/jpaMapeamento1/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManyToOne/src/main/java/com/jpaMapeamento1/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManyToOne/src/main/java/com/principal/ManyToOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManyToOne/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="Added ManyToOne project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneToManyy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ManyToOne/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneToManyy/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665871463934</updated>
       <workItem from="1666473561503" duration="436000" />
-      <workItem from="1666474009134" duration="1698000" />
+      <workItem from="1666474009134" duration="2744000" />
     </task>
     <task id="LOCAL-00001" summary="New project">
       <created>1665871848188</created>
@@ -170,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666474919050</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added ManyToOne project">
+      <created>1666475755908</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666475755908</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +194,8 @@
     <MESSAGE value="Clean branch" />
     <MESSAGE value="OneToMany" />
     <MESSAGE value="Updated OneToMany project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated OneToMany project" />
+    <MESSAGE value="Added ManyToOne project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ManyToOne project" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/atos_java$App.ic" NAME="App Coverage Results" MODIFIED="1666037444597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
