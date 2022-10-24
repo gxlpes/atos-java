@@ -9,32 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="Initial project">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemplo01/src/main/java/br/com/testing/Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemplo01/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemplo01/target/exemplo01.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js-drum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js-hello-world" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js-practice/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js-practice/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js-practice/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_10_2022_23_01__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_10_2022_23_01__Changes_1.xml" beforeDir="false" />
+    <list default="true" id="93ceb730-7d6f-43f4-abb4-2d8c951c6817" name="Changes" comment="Add updates to project">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exemplo01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exemplo01/src/main/java/br/com/testing/MyServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exemplo01/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootstrap-practice" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap-practice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hero-page" beforeDir="false" afterPath="$PROJECT_DIR$/../hero-page" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../js-practice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../js-practice/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../js-practice/practice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js-practice/practice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../odin-recipes" beforeDir="false" afterPath="$PROJECT_DIR$/../odin-recipes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio-website" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio-website" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rock-paper-scissors" beforeDir="false" afterPath="$PROJECT_DIR$/../rock-paper-scissors" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../survey-form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../survey-form/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../survey-form/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../survey-form/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo01/src/main/java/br/com/testing/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo01/src/main/java/br/com/testing/Servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo01/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo01/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo01/target/exemplo01.war" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo01/target/exemplo01.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js-drum" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tribute-page" beforeDir="false" afterPath="$PROJECT_DIR$/../tribute-page" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,12 +102,12 @@
       <deployment>
         <artifact name="exemplo01:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/a" />
+            <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="071c00fa-8931-4936-b2d4-3f91a52287b3" />
+        <option name="BASE_DIRECTORY_NAME" value="452c9112-d635-43d8-842a-839df69e123f" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -134,7 +115,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52067" />
+        <option name="DEBUG_PORT" value="56901" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -203,18 +184,6 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -226,6 +195,7 @@
       <updated>1665871463934</updated>
       <workItem from="1666266794466" duration="4766000" />
       <workItem from="1666271700376" duration="105000" />
+      <workItem from="1666652128047" duration="547000" />
     </task>
     <task id="LOCAL-00001" summary="New project">
       <created>1665871848188</created>
