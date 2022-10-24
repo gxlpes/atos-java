@@ -2,7 +2,7 @@
 
 Navigation between lessons is done using the repository branches.
 
-| Repo | Aula | Data    | Description 
+| Branch | Aula | Data    | Description 
 |:---:|:--------:|:---------:|:-------------|
 | <a href="https://github.com/gxlpes/atos-java/tree/001_aula_210922">Link</a> | 001 | 21/09/22 | Basic syntax of Java 
 | <a href="https://github.com/gxlpes/atos-java/tree/002_aula_230922">Link</a> | 002 | 23/09/22 | OOP, Methods, Attributes
