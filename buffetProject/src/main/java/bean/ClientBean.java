@@ -2,10 +2,12 @@ package bean;
 
 import dao.ClientDAO;
 import entity.Client;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 import java.util.List;
@@ -15,13 +17,16 @@ import java.util.List;
 @Data
 @Builder
 @NoArgsConstructor
+@AllArgsConstructor
 
 public class ClientBean {
-    static Client clientBean;
+    static Client clientBeanx;
     static List listBean;
 
+    private String cpf;
+
     public static void getData(Client client) {
-        clientBean = client;
+        clientBeanx = client;
     }
 
     public static void getAllData(List all) {
@@ -29,44 +34,47 @@ public class ClientBean {
     }
 
     public String getCPF() {
-        return clientBean.getId();
+        return clientBeanx.getId();
     }
 
     public String getClient() {
-        return clientBean.getClient();
+        return clientBeanx.getClient();
     }
 
     public String getDesert() {
-        return clientBean.getDesert();
+        return clientBeanx.getDesert();
     }
 
     public Integer getGuests() {
-        return clientBean.getGuests();
+        return clientBeanx.getGuests();
     }
 
     public double getPriceGuest() {
-        return clientBean.getPriceGuest();
+        return clientBeanx.getPriceGuest();
     }
 
     public double getPriceGuests() {
-        return clientBean.getPriceGuests();
+        return clientBeanx.getPriceGuests();
     }
 
     public int getWaiters() {
-        return clientBean.getWaiters();
+        return clientBeanx.getWaiters();
     }
 
     public double getPriceWaiters() {
-        return clientBean.getPriceWaiters();
+        return clientBeanx.getPriceWaiters();
     }
 
     public double getPriceTotal() {
-        return clientBean.getPriceTotal();
+        return clientBeanx.getPriceTotal();
     }
 
     public List getTableAll() {
-
         return ClientDAO.searchAll();
+    }
+
+    public Integer getResult(String id) {
+        return ClientDAO.getResult(id);
     }
 }
 

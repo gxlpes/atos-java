@@ -9,12 +9,16 @@
 </head>
 
 <h:body>
-    <h:dataTable id="tabelaClients" value="#{clientBean.getTableAll()}" var="client">
-            <h:column>
-                <p>Nome</p>
-                <h:outputText value="#{client.id}" />
-            </h:column>
-    </h:dataTable>
+    <form method="get">
+        <label for="consulta">
+            CPF Cliente
+            <h:inputText type="text" value="#{clientBean.cpf}" id="consulta" required="true"/>
+        </label>
+        <h:commandButton value="Consultar" action="#{clientBean.getResult(123)}" class="btn btn-primary"/>
+    </form>
+    <ui:fragment rendered="#{clientBean.getResult(clientBean.cpf)} > 0}">
+        <h3>hello</h3>
+    </ui:fragment>
 </h:body>
 
 </html>

@@ -66,7 +66,7 @@ public class ClientDAO {
         return listClients;
     }
 
-    public Integer getResult(String id) {
+    public static Integer getResult(String id) {
         setup();
         Session session = sessionFactory.openSession();
 
