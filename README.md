@@ -11,12 +11,12 @@ Navigation between lessons is done using the repository branches.
 | <a href="https://github.com/gxlpes/atos-java/tree/005_aula_051022">Link</a> | 005 | 05/10/22 | Java JDBC, Polimorfism w/ queries, DB queries, <a href="https://github.com/gxlpes/atos-java/tree/006_aula_071022/demo">Java JDBC Project</a>
 | <a href="https://github.com/gxlpes/atos-java/tree/006_aula_071022">Link</a> | 006 | 07/10/22 | Maven management, MVN dependencies 
 | <a href="https://github.com/gxlpes/atos-java/tree/007_aula_101022">Link</a>| 007 | 10/10/22 | Profiling, Debugging, Logging, <a href="https://github.com/gxlpes/atos-java/tree/007_aula_101022/logging3">Logging Project</a>
-| <a href="https://github.com/gxlpes/atos-java/tree/008_aula_131022">Link</a>| 008 | 13/10/22 | Hibernate, MySQL, JPA, <a href="https://github.com/gxlpes/atos-java/tree/008_aula_131022/atos-cadastro">Atos Cadastro Project</a>
+| <a href="https://github.com/gxlpes/atos-java/tree/008_aula_131022">Link</a>| 008 | 13/10/22 | Hibernate, MySQL, JPA, <a href="https://github.com/gxlpes/atos-cadastro">Atos Cadastro Project</a>
 | <a href="https://github.com/gxlpes/atos-java/tree/009_aula_141022">Link</a>| 009 | 14/10/22 | Servlets
 | <a href="https://github.com/gxlpes/atos-java/tree/010_aula_171022">Link</a>| 010 | 17/10/22 | Multiple tables with JPA/Hibernate, ManyToOne, OneToMany
 | <a href="https://github.com/gxlpes/atos-java/tree/011_aula_191022">Link</a>| 011 | 19/10/22 | Servlet + Tomcat + JSP
 | <a href="https://github.com/gxlpes/atos-java/tree/012_aula_211022">Link</a>| 012 | 21/10/22 | Servlet + Hibernate + MySQL
-| <a href="https://github.com/gxlpes/atos-java/tree/013_aula_281022">Link</a>| 013 | 28/10/22 | Hibernate + Servlet + JSF, <a href="https://github.com/gxlpes/atos-java/tree/013_aula_281022">Buffet Servlet Project</a>
+| <a href="https://github.com/gxlpes/atos-java/tree/013_aula_281022">Link</a>| 013 | 28/10/22 | Hibernate + Servlet + JSF, <a href="https://github.com/gxlpes/buffet-project">Buffet Servlet Project</a>
 | <a href="https://github.com/gxlpes/atos-java/tree/014_aula_311022">Link</a>| 014 | 31/10/22 | JPA ManyToMany, JPA OneToOne, Spring Boot introduction
 | <a href="https://github.com/gxlpes/atos-java/tree/015_aula_031122">Link</a>| 015 | 03/11/22 | Spring + JPA + Hibernate
 
