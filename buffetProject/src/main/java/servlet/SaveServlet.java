@@ -1,7 +1,8 @@
 package servlet;
 
+import bean.ClientBean;
 import entity.Client;
-import repository.SaveRepository;
+import dao.ClientDAO;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -13,7 +14,7 @@ import static calc.Price.*;
 @WebServlet(name = "SaveServlet", value = "/save")
 public class SaveServlet extends HttpServlet {
 
-    SaveRepository saveRepository = new SaveRepository();
+    ClientDAO clientDAO = new ClientDAO();
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -26,7 +27,7 @@ public class SaveServlet extends HttpServlet {
         String client = request.getParameter("client");
         int guests = Integer.parseInt(request.getParameter("guests"));
         String desert = request.getParameter("desert");
-        if(desert == (null)) desert = "n";
+        if (desert == (null)) desert = "n";
 
         double priceGuest = priceGuest(guests, desert);
         double priceGuests = priceGuests(guests, priceGuest);
@@ -46,7 +47,11 @@ public class SaveServlet extends HttpServlet {
         clientData.setPriceWaiters(priceWaiters);
         clientData.setPriceTotal(priceTotal);
 
-        saveRepository.setup();
-        saveRepository.salvar(clientData);
+        clientDAO.setup();
+        clientDAO.salvar(clientData);
+
+        ClientBean.getData(clientData);
+
+        response.sendRedirect("/resultado.xhtml");
     }
 }
