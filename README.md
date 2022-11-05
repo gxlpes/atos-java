@@ -1,5 +1,7 @@
 # Atos Java - Integration of Java Projects
 
+This repository is used to store just <b>Java related code</b>. To check the frontend part of the academy, <a href="https://github.com/gxlpes/atos-front">check this repository.<a/>
+
 Navigation between lessons is done using the repository branches.
 
 | Branch | Aula | Data    | Description 
