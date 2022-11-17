@@ -4,221 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87a32529-5803-4ce4-8ea9-d995bc0db475" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/atos-java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_12_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemploDB/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemploDB/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemploDB/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemploDB/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemploDB/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemploDB/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemploDB/src/main/java/com/example/accessingdatamysql/AccessingDataMysqlApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemploDB/src/main/java/com/example/accessingdatamysql/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemploDB/src/main/java/com/example/accessingdatamysql/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemploDB/src/main/java/com/example/accessingdatamysql/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemploDB/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemploDB/src/test/java/com/example/exemplodb/ExemploDbApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_11_2022_08_30_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_11_2022_08_30__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" />
+    <list default="true" id="87a32529-5803-4ce4-8ea9-d995bc0db475" name="Changes" comment="New Spring project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/java/bean/ClientBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/java/calc/Price.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/java/dao/ClientDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/java/entity/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/java/servlet/SaveServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/cadastro.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/consulta.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/inicio.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/listagem.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/resources/css/cadastro.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/resources/css/cadastro.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/resources/css/cadastro.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/resources/css/consulta.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/resources/css/consulta.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/resources/css/consulta.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/resources/css/inicio.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/resources/css/inicio.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/resources/css/inicio.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/resources/css/resultado.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/resources/css/resultado.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/resources/css/resultado.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/src/main/webapp/resultado.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/bean/ClientBean$ClientBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/bean/ClientBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/calc/Price.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/css/cadastro.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/css/cadastro.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/css/cadastro.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/css/consulta.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/css/consulta.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/css/consulta.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/css/inicio.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/css/inicio.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/css/inicio.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/css/resultado.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/css/resultado.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/css/resultado.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/dao/ClientDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/entity/Client$ClientBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/entity/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/classes/servlet/SaveServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/cdi-api-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/classmate-1.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/el-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/hibernate-core-5.2.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/jakarta.activation-api-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/jakarta.xml.bind-api-2.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/jsf-api-2.2.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/jsf-impl-2.2.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/jsr250-api-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/lombok-1.18.20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/mysql-connector-java-8.0.23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/cadastro.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/consulta.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/inicio.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/listagem.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/resources/css/cadastro.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/resources/css/cadastro.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/resources/css/cadastro.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/resources/css/consulta.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/resources/css/consulta.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/resources/css/consulta.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/resources/css/inicio.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/resources/css/inicio.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/resources/css/inicio.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/resources/css/resultado.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/resources/css/resultado.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/resources/css/resultado.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/buffetProject/resultado.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/bean/ClientBean$ClientBeanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/bean/ClientBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/calc/Price.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/css/cadastro.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/css/cadastro.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/css/cadastro.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/css/consulta.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/css/consulta.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/css/consulta.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/css/inicio.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/css/inicio.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/css/inicio.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/css/resultado.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/css/resultado.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/css/resultado.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/dao/ClientDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/entity/Client$ClientBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/entity/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffetProject/target/classes/servlet/SaveServlet.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,21 +35,21 @@
     <option name="flattenPackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Guilherme Lopes/repos/atos-java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Guilherme Lopes/repos/atos-java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Guilherme Lopes\repos\atos-java" />
@@ -276,7 +63,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.AccessingDataMysqlApplication">
     <configuration name="AccessingDataMysqlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="exemploDB" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.accessingdatamysql.AccessingDataMysqlApplication" />
@@ -301,8 +88,16 @@
       <option name="presentableId" value="Default" />
       <updated>1667514429285</updated>
       <workItem from="1667514432542" duration="356000" />
-      <workItem from="1667514806709" duration="1100000" />
+      <workItem from="1667514806709" duration="3392000" />
     </task>
+    <task id="LOCAL-00001" summary="New Spring project">
+      <created>1667515993894</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667515993894</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,5 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="New Spring project" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Spring project" />
   </component>
 </project>
